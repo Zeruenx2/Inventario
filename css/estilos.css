@@ -1,0 +1,43 @@
+body,html{
+	height: 100%;
+	width: 100%;
+}
+.main-container{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-container > .login,
+.main-container > .hero-body{
+	height: auto;
+	width: 100%;
+	max-width: 400px;
+	min-width: 300px;
+}
+
+.form-inline{
+	display: inline-flex;
+}
+
+body{
+	background-color: lightblue;
+	background-image: url('imagen.jpg') no repeat;
+	position: relative;
+}
+
+*{
+	margin: 0;
+	}
+	#encabezado{
+		width: 100%;
+		margin-top: 140px;
+	
+	}
+	.centrar{
+		width: 40%;
+		margin: 0 auto;
+		position: relative;
+	}
+
